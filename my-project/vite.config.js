@@ -6,6 +6,7 @@ export default defineConfig({
   
   plugins: [
     react(),
-    tailwindcss(),
-  ],
+    tailwindcss(), ],
+    base: '/my-project/',
+ 
 })
